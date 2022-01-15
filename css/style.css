@@ -1,0 +1,255 @@
+html {
+  font-family: "Encode Sans", sans-serif;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+}
+.logo {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-bar {
+  border-top: 1px solid #f5f6f7;
+  border-bottom: 1px solid #f5f6f7;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.esquerda {
+  width: 50%;
+  height: 100%;
+}
+.noticias {
+  display: flex;
+}
+.meio {
+  width: 25%;
+  height: 100%;
+}
+.direita {
+  width: 25%;
+  height: 100%;
+}
+main {
+  display: flex;
+  flex-direction: row;
+}
+h1 {
+  color: #c4160c;
+  font-weight: 700;
+  font-family: Encode Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 52px;
+  line-height: 67px;
+}
+p {
+  color: #303134;
+  font-family: Encode Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+}
+.linha2 {
+  margin-top: 7px;
+  margin-bottom: 25px;
+}
+hr {
+  color: #f5f6f7;
+  display: flex;
+  flex-direction: column;
+}
+.alem-do-presidente {
+  width: 193px;
+  height: 110px;
+  margin-top: 25px;
+  border-radius: 12px;
+}
+.imagens-direita {
+  width: 240px;
+  height: 128px;
+  margin-top: 25px;
+  border-radius: 12px;
+}
+.imagem {
+  border-radius: 12px;
+  width: 240px;
+  height: 128px;
+}
+.direita-imagens {
+  width: 240px;
+  height: 128px;
+  margin-top: 50px;
+  border-radius: 12px;
+  margin-left: 25px;
+}
+.direita-texto {
+  width: 240px;
+  margin-top: 19px;
+  margin-left: 25px;
+  font-family: Encode Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 17px;
+  letter-spacing: -0.02em;
+}
+.direita-texto2 {
+  width: 240px;
+  height: 60px;
+  margin-left: 25px;
+  font-family: Encode Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: -0.045em;
+  color: #2f3134;
+}
+.direito {
+  width: 240px;
+  font-family: Encode Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: -0.045em;
+  color: #2f3134;
+}
+.direitola {
+  width: 240px;
+  height: 25px;
+  margin-left: 25px;
+  font-family: Encode Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: -0.045em;
+  color: #2f3134;
+}
+.direita-sem {
+  width: 240px;
+  margin-left: 25px;
+  font-family: Encode Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: -0.045em;
+  color: #2f3134;
+}
+.direita-texto3 {
+  width: 217px;
+  height: 20px;
+  margin-left: 25px;
+  font-family: Encode Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  letter-spacing: -0.048em;
+  color: #1a1b1d;
+}
+
+.texto-direita {
+  width: 240px;
+  margin-top: 19px;
+  font-family: Encode Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 17px;
+  letter-spacing: -0.02em;
+}
+.texto-direita2 {
+  width: 240px;
+  height: 84px;
+  font-family: Encode Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: -0.045em;
+  color: #2f3134;
+}
+.texto-direita3 {
+  width: 174px;
+  height: 42.5px;
+  margin-top: 4.5px;
+  font-family: Encode Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  letter-spacing: -0.048em;
+  color: #2f3134;
+}
+.primeira-img {
+  margin-right: 24px;
+  width: 193px;
+  height: 300px;
+}
+.segunda-img {
+  margin-right: 24px;
+}
+.texto-primeiro {
+  width: 192px;
+  margin-top: 11px;
+  font-family: Encode Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 17px;
+  letter-spacing: -0.02em;
+  color: #c4170c;
+}
+.texto-primeiro2 {
+  width: 192px;
+  height: 70px;
+  font-family: Encode Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: -0.045em;
+  color: #2f3134;
+}
+.texto-primeiro3 {
+  width: 174px;
+  height: 42.5px;
+  margin-top: 4.5px;
+  font-family: Encode Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  letter-spacing: -0.048em;
+  color: #2f3134;
+}
+.img-direita {
+  width: 193px;
+  height: 110px;
+  margin-top: 25px;
+  border-radius: 12px;
+}
+.red {
+  color: red;
+}
+.azul {
+  color: blue;
+}
+.orange {
+  color: orange;
+}
+.pink {
+  color: #ff75bb;
+}
+.magenta {
+  color: magenta;
+}
+.verdao {
+  color: #006766;
+}
+.verdin {
+  color: rgb(17, 228, 17);
+}
